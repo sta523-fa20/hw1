@@ -1,0 +1,78 @@
+---
+title: "Homework 1"
+author: ""
+date: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = NA)
+```
+
+## Task 1
+
+```{r mh_distance_function}
+mh_distance <- function() {
+  
+  # body of your function goes here...
+  
+}
+```
+
+
+## Task 2
+
+<i>
+Be sure to remove chunk option `eval=FALSE` in the below code chunks
+once you create `mh_distance()`. Do not include this italicized
+text in your final submission.
+</i>
+
+**Initial test cases** (return non-negative modified Hamming distance)
+
+```{r eval=FALSE}
+mh_distance(x = "abc", y = "abc")
+mh_distance(x = T, y = FALSE)
+mh_distance(x = "523890", y = "752839")
+mh_distance(x = 2341, y = 2350)
+```
+
+Added test cases that return a non-negative modified Hamming distance result.
+
+```{r}
+# additional test cases go here
+```
+
+**Initial test cases** (return values of `-1`)
+
+```{r eval=FALSE}
+mh_distance(x = 52, y = 113)
+mh_distance(x = "swimming", y = "winning")
+mh_distance(x = NA, y = TRUE)
+mh_distance(x = 1.5, y = 2.5)
+```
+
+Added test cases that return a value of `-1`.
+
+```{r}
+# additional test cases go here
+```
+
+
+## Task 3
+
+Consider the pair of vectors `s` and `w` given below.
+
+```{r}
+s <- c(26, 50123, 456.12, 8, 0)
+w <- c(22, 50000, 451.00, 88, 0)
+```
+
+```{r}
+# loop goes here
+```
+
+
+## Task 4
+
+Brief write-up goes here...
